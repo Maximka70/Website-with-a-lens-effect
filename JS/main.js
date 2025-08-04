@@ -9,7 +9,7 @@ document.addEventListener('mousemove', e => (
 
 
 document.addEventListener('deviceorientation', e => {
-  const { beta, gama } = e;
+  const { beta, gamma } = e;
   const clampedBeta = Math.max(-90, Math.min(90, beta));
   const clampedGamma = Math.max(-45, Math.min(45, gamma));
 
